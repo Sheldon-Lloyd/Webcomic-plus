@@ -1,2 +1,2 @@
-# webcomic-
+# webcomic+
 Webcomic Template
