@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <title>Comic CMS</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/comic.css">
+</head>
+
+<body class="collection">
+  <div class="comic-hero overflow-auto">
+    <div class="comic-thumbnail-cover float-left"></div>
+    <div class="overflow-auto">
+    <div class="comic-heading overflow-auto">
+    
+      <h3 class="float-right">Chapters (1 out of 10 Available)</h3>
+      <h3><a href="/comic-reader.html">Start reading » Comic Number 1</a></h3>
+    </div>
+    <div class="comic-details overflow-auto">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet urna non condimentum ultrices. Suspendisse elementum metus ac nibh gravida turpis duis.
+    </p>
+    <h5 class="float-left">Rated (PG-13)</h5>
+    <h5 class="float-right">Updates: Once a Week on Fridays</h5>
+    </div>
+    </div>
+  </div>
+  <header class="header">
+    <span class="header-title float-left">Comic Name</span>
+    <h1>By Sheldon Lloyd<h1>
+</header>
+  <nav class="main-nav float-left">
+    <ul>
+      <li><a>Home</a></li>
+      <li class="is-active">
+        <input class="is-hidden" type="checkbox" id="collection-list">
+        <label for="collection-list">Collection</label>
+        <ul class="collection-list is-hidden">
+          <li><a>Comic 1</a></li>
+          <li><a>Comic 2</a></li>
+          <li><a>Comic 3</a></li>
+          <li><a>Comic 4</a></li>
+          <li><a>Comic 5</a></li>
+        </ul>
+      </li>      
+      <li><a>Characters</a></li>
+      <li><a>Blog</a></li>
+      <li><a>Calendar</a></li>
+    </ul>
+  </nav>
+  <aside class="float-right aside">
+    <div class="ad container">
+      <span>Advertisement</span>
+      <div class="placeholder"></div>    
+    </div>
+    <div class="container">
+      <h3>Blog Posts</h3>
+      <ul>
+        <li>Title 1</li>
+        <li>Title 2</li>
+        <li>Title 3</li>
+        <li>Title 4</li>
+        <li>Title 5</li>
+      </ul>
+    </div>
+  </aside>
+  <main class="overflow-auto">
+
+    <div class="archive-comic container cf flexbox">
+      <div class="comic-thumbnail-cover float-left"></div>
+      <div class="archive-comic-action float-right">
+        <a href="/comic-reader.html" class="button">Read</a>
+      </div>
+      <div class="archive-comic-content overflow-auto">
+      <div class="archive-comic-heading">
+        <h2>Chapter 1</h2>
+      </div>
+      <p class="archive-comic-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet urna non condimentum ultrices. Suspendisse elementum metus ac nibh gravida turpis duis.
+      </p>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
