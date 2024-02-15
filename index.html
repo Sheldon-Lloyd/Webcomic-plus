@@ -15,24 +15,26 @@
 
 <body>
   <header class="header">
-    <span class="header-title float-left">Comic Name</span>
+    <label for="main-nav" class="header-title float-left pointer">Comic Name</label>
     <h1>A creative commons webcomic template<h1>
 </header>
+<input class="is-hidden" id="main-nav" type="checkbox" checked>
+
   <nav class="main-nav float-left">
     <ul>
-      <li class="is-active"><a>Home</a></li>
+      <li class="is-active"><a href="index.html">Home</a></li>
       <li>
         <input class="is-hidden" type="checkbox" id="collection-list">
-        <label for="collection-list">Collection</label>
+        <label for="collection-list" class="pointer">Collection</label>
         <ul class="collection-list is-hidden">
-          <li><a>Comic 1</a></li>
+          <li><a href="comic-collection.html">Comic 1</a></li>
           <li><a>Comic 2</a></li>
           <li><a>Comic 3</a></li>
           <li><a>Comic 4</a></li>
           <li><a>Comic 5</a></li>
         </ul>
       </li>
-      <li><a>Characters</a></li>
+      <li><a href="comic-character.html">Characters</a></li>
       <li><a>Blog</a></li>
       <li><a>Calendar</a></li>
     </ul>
