@@ -1147,6 +1147,11 @@ a.comic-nav {
   bottom: calc(150px + 3em);
   top: 0px;
   left: 100px;
+  z-index: 3;
+}
+.comic-cover img{
+  position: fixed;
+  top: 0;
 }
 :has(.end:target) .comic-cover{
 float: none;
@@ -1199,19 +1204,26 @@ overflow: visible;
   }
   :has(.end:target) .comic-cover{
     float: none;
-    width: 100px;
+    width: 100%;
     height: calc(100vh - 152px);
     position: relative;
     }
     :has(.end:target) .actions{
     position: relative;
-    display: block!important;
+    display: flex!important;
+    height: 70px;
     }
     :has(.end:target) .comic{
     overflow: visible;
     }
 
-
+    .end:target .comic-aside{
+      z-index: 3;
+      width: 100%;
+      top: 70px;
+      bottom: calc(150px + 3em);
+      position: absolute;
+  }
   }
 @media (max-width:1020px){
   .comic-cover{
