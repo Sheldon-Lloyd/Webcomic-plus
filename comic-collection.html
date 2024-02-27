@@ -7,7 +7,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-  <title>Comic CMS</title>
+  <title>Comic 1 - Comic CMS</title>
 
   <!--  Styles  -->
   <link rel="stylesheet" href="css/style.css">
@@ -35,7 +35,7 @@
     <label for="main-nav" class="header-title float-left">Comic Name</label>
     <h1>Comic Number 1 By Sheldon Lloyd<h1>
 </header>
-<input class="is-hidden" id="main-nav" type="checkbox" checked>
+<input class="is-hidden" id="main-nav" type="checkbox">
 
   <nav class="main-nav float-left">
     <ul>
@@ -56,28 +56,16 @@
       <li><a>Calendar</a></li>
     </ul>
   </nav>
-  <aside class="float-right aside">
-    <div class="ad container">
-      <span>Advertisement</span>
-      <div class="placeholder"></div>    
-    </div>
-    <div class="container">
-      <h3>Blog Posts</h3>
-      <ul>
-        <li>Title 1</li>
-        <li>Title 2</li>
-        <li>Title 3</li>
-        <li>Title 4</li>
-        <li>Title 5</li>
-      </ul>
-    </div>
-  </aside>
+
   <main class="overflow-auto">
 
     <div class="archive-comic container cf flexbox">
+      <div class="comic-thumbnail-progress" style="background: linear-gradient(180deg, rgba(54,91,135,1) 0%, rgba(54,91,135,1) 25%, rgba(255,255,255,1) 25%);">
+        <div>25% Complete</div>
+        </div>
       <div class="comic-thumbnail-cover float-left"></div>
       <div class="archive-comic-action float-right">
-        <a href="/comic-reader.html" class="button">Read</a>
+        <a href="comic.html" class="button">Read</a>
       </div>
       <div class="archive-comic-content overflow-auto">
       <div class="archive-comic-heading">
@@ -88,9 +76,54 @@
       </p>
       </div>
     </div>
+    <div class="character-appearances">
+      <div class="character-appearances-header">
+        <div class="float-right">
+          <a class="character-appearances-previous pointer">&laquo;</a>
+          <a class="character-appearances-next pointer">&raquo;</a>
+        </div>        
+        <h3>Characters in this series/collection</h3>
+
+        <div class="character-appearances-nav"></div>
+        <div class="character-appearances-list custom-scrollbar">
+          <ul>
+            <li>
+              <div class="comic-thumbnail-cover float-left"></div>
+            </li>
+            <li>
+              <div class="comic-thumbnail-cover float-left"></div>
+            </li>
+            <li>
+              <div class="comic-thumbnail-cover float-left"></div>
+            </li>
+            <li>
+              <div class="comic-thumbnail-cover float-left"></div>
+            </li>
+            <li>
+              <div class="comic-thumbnail-cover float-left"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
   </main>
-
+  <aside class="float-right aside">
+    <div class="ad container">
+      <span>Advertisement</span>
+      <div class="placeholder"></div>    
+    </div>
+    <div class="blog-posts container">
+      <h3>Blog Posts</h3>
+      <ul>
+        <li><a>Title 1</a></li>
+        <li><a>Title 2</a></li>
+        <li><a>Title 3</a></li>
+        <li><a>Title 4</a></li>
+        <li><a>Title 5</a></li>
+      </ul>
+    </div>
+  </aside>
   <script src="scripts/index.js"></script>
 </body>
 

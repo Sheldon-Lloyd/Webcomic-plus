@@ -63,7 +63,7 @@
         </div>
           <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/855c8061-b6c8-4a1d-b5e1-bccbf4a419ee/d7bhlqh-6088b8b9-c2bd-42ac-92a0-9f7ce49c9611.png/v1/fit/w_800,h_957,q_70,strp/minina_hyperdrive_by_sheldon227_d7bhlqh-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTU3IiwicGF0aCI6IlwvZlwvODU1YzgwNjEtYjZjOC00YTFkLWI1ZTEtYmNjYmY0YTQxOWVlXC9kN2JobHFoLTYwODhiOGI5LWMyYmQtNDJhYy05MmEwLTlmN2NlNDljOTYxMS5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.m8bt-N00sM7kWiaGltTv0KXzk34q64mrxmDPBjkXbB8">
 
-    <ul class="page-list overflow-auto">
+    <ul class="page-list overflow-auto custom-scrollbar">
       <li><a href="#title"><span>Title</span></a></li>
       <li><a href="#page-1"><span>Page</span> 1</a></li>
       <li><a href="#page-2"><span>Page</span> 2</a></li>
@@ -215,7 +215,7 @@ test">
         </a>
     </div>
     <label for="main-nav" class="header-title float-left pointer">Comic Name</label>
-    <div class="float-right header-comic-nav"><a href="#archive" class="archive-link">&#x2193;</a><a href="#" class="previous-comic"></a><a class="next-comic" href="#"></a></div>
+    <div class="float-right header-comic-nav"><a href="#archive" class="archive-link">&#x2193;</a><a href="#" class="previous-comic"><span>Previous: Comic 1</span></a><a class="next-comic" href="#"><span>Next: Comic 1</span></a></div>
     <h1><a href="#archive">Comic Number 1: Chapter 1</a></h1>
 </header>
 <input class="is-hidden" id="main-nav" type="checkbox">
@@ -242,6 +242,9 @@ test">
   <main class="overflow-auto">
     <div id="archive">
     <div class="archive-comic is-active container cf flexbox">
+      <div class="comic-thumbnail-progress" style="background: linear-gradient(180deg, rgba(54,91,135,1) 0%, rgba(54,91,135,1) 25%, rgba(255,255,255,1) 25%);">
+      <div>25% Complete</div>
+      </div>
       <div class="comic-thumbnail-cover float-left"></div>
       <div class="archive-comic-action float-right">
         <a class="button">Read</a>
@@ -256,6 +259,9 @@ test">
       </div>
     </div>
       <div class="archive-comic container cf flexbox">
+        <div class="comic-thumbnail-progress" style="background: linear-gradient(180deg, rgba(54,91,135,1) 0%, rgba(54,91,135,1) 5%, rgba(255,255,255,1) 5%);">
+          <div>5% Complete</div>
+          </div>
       <div class="comic-thumbnail-cover float-left"></div>
       <div class="archive-comic-action float-right">
         <a class="button">Read</a>
