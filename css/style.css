@@ -316,6 +316,10 @@ p {
 .blog-posts.container ul{
   padding: 0;
   list-style: none;
+  margin: 10px 0 0 0;
+}
+.blog-posts.container ul li{
+      padding: 0px 0 10px;
 }
 .comic-item {
     width: calc(32.6% - 8px);
@@ -441,6 +445,17 @@ width: 33.2%;
   background: #ccc;
   min-height: 200px;
   min-width: 145px;
+}
+.comic-thumbnail-cover{
+  min-height: 200px;
+  min-width: 145px;
+  overflow: hidden;
+  line-height: 0;
+}
+.comic-thumbnail-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .comic-heading {
   padding: 10px 0px 5px;
@@ -1450,6 +1465,9 @@ overflow: visible;
   .comic-item {
     width: calc(100% - 8px);
   }
+  .comic-item h2 {
+    font-size: initial;
+}
   .comic .header-title{
     width: 0;
     overflow: hidden;
